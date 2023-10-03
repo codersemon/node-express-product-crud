@@ -1,0 +1,15 @@
+<div class="container py-5">
+    <div class="row">
+        <a href="/" class="btn btn-primary mb-2">Back to shop</a>
+        <div class="col-md-6">
+            <img class="img-fluid product-thumbnail" src="/uploads/product/<%= product.thumbnail %>" alt="<%= product.name %>">
+        </div>
+        <div class="col-md-6">
+            <div class="product-details">
+                <h2><%= product.name %></h2>
+                <h4><small class="original-price text-decoration-line-through"><%= product.regularPrice %></small> <%= product.salePrice %> BDT</h4>
+                <h5 class="text-primary">In Stock: <%= product.stock %></h5>
+            </div>
+        </div>
+    </div>
+</div>

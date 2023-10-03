@@ -1,0 +1,23 @@
+h1{
+    color: green;
+}
+.thumb-wrap{
+    max-width: 100px;
+}
+.action-wrap a {
+    line-height: 15px;
+    color: #fff;
+}
+.action-wrap a svg{
+    fill: #fff;
+}
+img.img-fluid.product-thumbnail {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+td.thumb-wrap img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
